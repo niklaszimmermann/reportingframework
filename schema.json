@@ -4,8 +4,10 @@
   "required": [
     "analyser_name",
     "analyser_description",
+    "analyser_object",
     "report_title",
-    "report_timestamp"
+    "report_timestamp",
+    "report_status"
   ],
   "properties": {
     "analyser_name": {
@@ -23,7 +25,6 @@
     "report_timestamp": {
       "type": "string",
       "format": "date-time"
-
     },
     "report_status": {
       "type": "string",
