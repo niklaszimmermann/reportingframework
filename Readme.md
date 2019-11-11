@@ -1,4 +1,4 @@
 helpful links:
 
-https://jsonschemalint.com
+https://jsonschemalint.com /r/n
 https://jsonlint.com/
