@@ -21,28 +21,38 @@
       "type": "string"
     },
     "report_timestamp": {
-      "type": "string"
+      "type": "string",
+      "format": "date-time"
+
     },
-    "findings": {
+    "report_status": {
+      "type": "string",
+      "enum": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "report_items": {
       "type": "array",
       "items": {
         "type": "object",
         "required": [
-          "position",
-          "finding"
+          "item_position",
+          "item_id"
         ],
         "additionalProperties": false,
         "properties": {
-          "position": {
+          "item_position": {
             "type": "string"
           },
-          "finding": {
+          "item_id": {
             "type": "string"
           },
-          "finding_title": {
+          "item_title": {
             "type": "string"
           },
-          "description": {
+          "item_description": {
             "type": "string"
           }
         }
