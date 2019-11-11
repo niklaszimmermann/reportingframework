@@ -1,0 +1,18 @@
+{
+  "analyser_name": "cookiejar analyser",
+  "analyser_description": "put's the crumbs together",
+  "report_title": "the cookiejar report",
+  "report_timestamp": "2019-01-01",
+  "findings": [
+    {
+      "position": "front of jar",
+      "finding": "fingerprints",
+      "finding_title": "fingerprint1",
+      "description": "thumb and index fingers"
+    },
+    {
+      "position": "on the ground",
+      "finding": "crumbs"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"analyser_name": "html validator",
+	"analyser_description": "validates html",
+	"report_title": "index.html",
+	"report_timestamp": "2019-01-01",
+	"findings": [{
+			"position": "line 1 column 20",
+			"finding": "validation error",
+			"finding_title": "doctype not found",
+			"description": "Start tag seen without seeing a doctype first. Expected e.g. “<!DOCTYPE html>”."
+		},
+		{
+			"position": "line 57 column 3",
+			"finding": "unknown critical error"
+		},
+		{
+			"position": "line 112 column 32",
+			"finding": "validation error",
+			"finding_title": "unexpected eof error",
+			"description": "End of file seen and there were open elements."
+		}
+	]
+}

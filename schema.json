@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "analyser_name",
+    "analyser_description",
+    "report_title",
+    "report_timestamp"
+  ],
+  "properties": {
+    "analyser_name": {
+      "type": "string"
+    },
+    "analyser_description": {
+      "type": "string"
+    },
+    "analysed_object": {
+      "type": "string"
+    },
+    "report_title": {
+      "type": "string"
+    },
+    "report_timestamp": {
+      "type": "string"
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "position",
+          "finding"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "position": {
+            "type": "string"
+          },
+          "finding": {
+            "type": "string"
+          },
+          "finding_title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
