@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "analyser_name",
+    "analyser_description",
+    "report_analysedObject",
+    "report_title",
+    "report_timestamp",
+    "report_status"
+  ],
+  "properties": {
+    "analyser_name": {
+      "type": "string"
+    },
+    "analyser_description": {
+      "type": "string"
+    },
+    "report_analysedObject": {
+      "type": "string"
+    },
+    "report_title": {
+      "type": "string"
+    },
+    "report_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "report_status": {
+      "type": "string",
+      "enum": [
+        "red",
+        "yellow",
+        "green"
+      ]
+    },
+    "report_items": {
+      "type": "array"
+    }
+  }
+}
