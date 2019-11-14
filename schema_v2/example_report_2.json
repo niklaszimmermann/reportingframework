@@ -1,0 +1,9 @@
+{
+  "analyser_name": "html validator",
+  "analyser_description": "validates html",
+  "report_title": "html validation report of index.html",
+  "report_analysedObject": "index.html",
+  "report_timestamp": "2019-01-01T19:43:12+00:00",
+  "report_status": "red",
+  "report_items": []
+}
