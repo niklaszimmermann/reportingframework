@@ -1,0 +1,9 @@
+{
+  "analyser_name": "cookiejar analyser",
+  "analyser_description": "puts the crumbs together",
+  "report_analysedObject": "cookiejar",
+  "report_status": "green",
+  "report_title": "the cookiejar report",
+  "report_timestamp": "2019-01-01T23:59:59+00:00",
+  "report_items": []
+}
