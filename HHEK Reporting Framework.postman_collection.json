@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "b56ef1a5-7258-48c6-b0a4-510149e7e85e",
+		"name": "HHEK Reporting Framework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post  @ api/reports/add (1)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"description": "test\n",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"analyser_name\": \"html validator\",\r\n  \"analyser_description\": \"validates html\",\r\n  \"report_title\": \"html validation report of index.html\",\r\n  \"report_analysedObject\": \"index.html\",\r\n  \"report_timestamp\": \"2019-01-01T19:43:12+00:00\",\r\n  \"report_status\": \"red\",\r\n  \"report_items\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/api/reports/add",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"reports",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post  @ api/reports/add (2)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "test\n",
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"analyser_name\": \"cookiejar analyser\",\r\n  \"analyser_description\": \"puts the crumbs together\",\r\n  \"report_analysedObject\": \"cookiejar\",\r\n  \"report_status\": \"green\",\r\n  \"report_title\": \"the cookiejar report\",\r\n  \"report_timestamp\": \"2019-01-01T23:59:59+00:00\",\r\n  \"report_items\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/api/reports/add",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"reports",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post  @ api/reports/add (3) - ngrok",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "test\n",
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"analyser_name\": \"cookiejar analyser\",\r\n  \"analyser_description\": \"puts the crumbs together\",\r\n  \"report_analysedObject\": \"cookiejar\",\r\n  \"report_status\": \"green\",\r\n  \"report_title\": \"the cookiejar report\",\r\n  \"report_timestamp\": \"2019-01-01T23:59:59+00:00\",\r\n  \"report_items\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3001/api/reports/add",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"reports",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post  @ api/reports/add (4) - zap",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"description": "test\n",
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"analyser_name\": \"cookiejar analyser\",\r\n  \"analyser_description\": \"puts the crumbs together\",\r\n  \"report_analysedObject\": \"cookiejar\",\r\n  \"report_status\": \"green\",\r\n  \"report_title\": \"HELLO FROM POSTMAN\",\r\n  \"report_timestamp\": \"2020-09-01T23:59:59+00:00\",\r\n  \"report_items\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://185.249.197.49:3001/api/reports/add",
+					"protocol": "http",
+					"host": [
+						"185",
+						"249",
+						"197",
+						"49"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"reports",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get @ api/report/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/api/report/5de816638cde5736fcf3d948",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"report",
+						"5de816638cde5736fcf3d948"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get @ api/repor/:id (2) - ngrok",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3001/api/report/5de816638cde5736fcf3d948",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"report",
+						"5de816638cde5736fcf3d948"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get @ api/repor/:id (3) - zap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://185.249.197.49:3001/api/report/5e16e68f711bf21666325d49",
+					"protocol": "http",
+					"host": [
+						"185",
+						"249",
+						"197",
+						"49"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"report",
+						"5e16e68f711bf21666325d49"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
